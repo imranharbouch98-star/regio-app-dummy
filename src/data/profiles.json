@@ -1,0 +1,400 @@
+{
+  "Bram De Wit": {
+    "gender": "m",
+    "tier": "A",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "nee",
+    "travelRadiusMin": "30",
+    "extraInfo": "Werkt niet op woensdagnamiddag."
+  },
+  "Lotte V.": {
+    "gender": "v",
+    "tier": "A",
+    "products": [
+      "airco",
+      "zp",
+      "wpb",
+      "thuisbatterij"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL",
+      "FR",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "ja",
+    "travelRadiusMin": "40",
+    "extraInfo": "Liefst geen afspraken na 18u."
+  },
+  "Sofie Janssen": {
+    "gender": "v",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp"
+    ],
+    "onlineOfferte": "nee",
+    "languages": [
+      "NL",
+      "FR"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "50",
+    "extraInfo": "Kan ook zaterdagvoormiddag."
+  },
+  "Pieter J.": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "eigen_klant",
+    "languages": [
+      "NL"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "nee",
+    "travelRadiusMin": "60",
+    "extraInfo": "Nieuw in het team, graag eerst afstemmen met de planning."
+  },
+  "Nina Claes": {
+    "gender": "v",
+    "tier": "A",
+    "products": [
+      "airco",
+      "zp",
+      "wplw"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "30",
+    "extraInfo": "Voorkeur voor afspraken in de voormiddag."
+  },
+  "Wout": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "40",
+    "extraInfo": ""
+  },
+  "Elke M.": {
+    "gender": "v",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "nee",
+    "languages": [
+      "NL",
+      "FR"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "nee",
+    "travelRadiusMin": "50",
+    "extraInfo": "Werkt niet op woensdagnamiddag."
+  },
+  "Tim Peeters": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "zp",
+      "thuisbatterij"
+    ],
+    "onlineOfferte": "eigen_klant",
+    "languages": [
+      "NL"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "ja",
+    "travelRadiusMin": "60",
+    "extraInfo": "Liefst geen afspraken na 18u."
+  },
+  "Jens": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "30",
+    "extraInfo": "Kan ook zaterdagvoormiddag."
+  },
+  "Hanne D.": {
+    "gender": "v",
+    "tier": "A",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL",
+      "FR"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "nee",
+    "travelRadiusMin": "40",
+    "extraInfo": "Nieuw in het team, graag eerst afstemmen met de planning."
+  },
+  "Ruben": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "nee",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "50",
+    "extraInfo": "Voorkeur voor afspraken in de voormiddag."
+  },
+  "Lars Willems": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp"
+    ],
+    "onlineOfferte": "eigen_klant",
+    "languages": [
+      "NL",
+      "FR",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "60",
+    "extraInfo": ""
+  },
+  "Evi": {
+    "gender": "v",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "nee",
+    "travelRadiusMin": "30",
+    "extraInfo": "Werkt niet op woensdagnamiddag."
+  },
+  "Stijn B.": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "40",
+    "extraInfo": "Liefst geen afspraken na 18u."
+  },
+  "Femke": {
+    "gender": "v",
+    "tier": "A",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "nee",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "50",
+    "extraInfo": "Kan ook zaterdagvoormiddag."
+  },
+  "Arne Maes": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp"
+    ],
+    "onlineOfferte": "eigen_klant",
+    "languages": [
+      "NL",
+      "FR"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "nee",
+    "travelRadiusMin": "60",
+    "extraInfo": "Nieuw in het team, graag eerst afstemmen met de planning."
+  },
+  "Joris": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp",
+      "wplw"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL",
+      "FR"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "30",
+    "extraInfo": "Voorkeur voor afspraken in de voormiddag."
+  },
+  "Laura S.": {
+    "gender": "v",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "40",
+    "extraInfo": ""
+  },
+  "Koen": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "wplw"
+    ],
+    "onlineOfferte": "nee",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "nee",
+    "travelRadiusMin": "50",
+    "extraInfo": "Specialist lucht-water warmtepompen.\nMaakt voorlopige berekeningen op aanvraag."
+  },
+  "Daan": {
+    "gender": "m",
+    "tier": "A",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "eigen_klant",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "60",
+    "extraInfo": "Liefst geen afspraken na 18u."
+  },
+  "Sanne": {
+    "gender": "v",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "30",
+    "extraInfo": "Kan ook zaterdagvoormiddag."
+  },
+  "Thijs": {
+    "gender": "m",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "nee",
+    "travelRadiusMin": "40",
+    "extraInfo": "Nieuw in het team, graag eerst afstemmen met de planning."
+  },
+  "Mila de Groot": {
+    "gender": "v",
+    "tier": "B",
+    "products": [
+      "airco",
+      "zp"
+    ],
+    "onlineOfferte": "nee",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "50",
+    "extraInfo": "Voorkeur voor afspraken in de voormiddag."
+  }
+}

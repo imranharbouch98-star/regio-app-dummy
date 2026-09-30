@@ -1,0 +1,51 @@
+{
+  "Fleur": {
+    "gender": "v",
+    "tier": "",
+    "products": [
+      "airco",
+      "zp"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "nee",
+    "travelRadiusMin": "30",
+    "extraInfo": "Werkt niet op woensdagnamiddag."
+  },
+  "Bas": {
+    "gender": "m",
+    "tier": "",
+    "products": [
+      "airco",
+      "zp",
+      "wpb"
+    ],
+    "onlineOfferte": "ja",
+    "languages": [
+      "NL",
+      "ENG"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "40",
+    "extraInfo": "Liefst geen afspraken na 18u."
+  },
+  "Noor": {
+    "gender": "v",
+    "tier": "",
+    "products": [
+      "zp"
+    ],
+    "onlineOfferte": "nee",
+    "languages": [
+      "NL"
+    ],
+    "languagesExtra": "",
+    "thuisbatterijEnkel": "",
+    "travelRadiusMin": "50",
+    "extraInfo": "Kan ook zaterdagvoormiddag."
+  }
+}
