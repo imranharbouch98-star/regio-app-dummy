@@ -23,6 +23,7 @@ import profilesSeedAlkmaar from "./data/profiles-alkmaar.json";
 
 const AUTH_KEY = "map-auth-ok";
 const ROLE_KEY = "map-auth-role";
+const DEMO_NOTICE_KEY = "demo-notice-seen";
 
 const COLORS = [
   "#D85A30", "#378ADD", "#639922", "#7F77DD", "#D4537E",
@@ -209,6 +210,12 @@ export default function App() {
   const [role, setRole] = useState(() => sessionStorage.getItem(ROLE_KEY) || "viewer");
   const [fbAdminAuthed, setFbAdminAuthed] = useState(false);
   const [activeDept, setActiveDept] = useState(DEPARTMENTS[0].id);
+  const [demoNoticeOpen, setDemoNoticeOpen] = useState(() => sessionStorage.getItem(DEMO_NOTICE_KEY) !== "1");
+
+  function closeDemoNotice() {
+    sessionStorage.setItem(DEMO_NOTICE_KEY, "1");
+    setDemoNoticeOpen(false);
+  }
 
   useEffect(() => {
     return subscribeToAdminAuth(setFbAdminAuthed);
@@ -236,6 +243,8 @@ export default function App() {
   function handleLogout() {
     sessionStorage.removeItem(AUTH_KEY);
     sessionStorage.removeItem(ROLE_KEY);
+    sessionStorage.removeItem(DEMO_NOTICE_KEY);
+    setDemoNoticeOpen(true);
     adminSignOut();
     setRole("viewer");
     setAuthed(false);
@@ -253,9 +262,27 @@ export default function App() {
             {d.label}
           </button>
         ))}
+        <span className="demo-banner" title="Wijzigingen worden niet gedeeld met anderen">
+          Demoversie · wijzigingen worden niet gedeeld
+        </span>
         <button className="logout-btn" onClick={handleLogout}>Uitloggen</button>
       </div>
       <DeptMap key={dept.id} config={dept} isAdmin={isAdmin} />
+
+      {demoNoticeOpen && (
+        <>
+          <div className="advisor-panel-backdrop" onClick={closeDemoNotice} />
+          <div className="demo-notice" role="dialog" aria-modal="true">
+            <h2>Dit is een demoversie</h2>
+            <p>Alle adviseurs, regio's en notities zijn fictief.</p>
+            <p>
+              Je mag gerust alles uitproberen, maar wijzigingen worden <strong>niet gedeeld</strong>{" "}
+              met anderen. Ze blijven enkel zichtbaar in deze browser.
+            </p>
+            <button className="save-btn" onClick={closeDemoNotice} autoFocus>Begrepen</button>
+          </div>
+        </>
+      )}
     </div>
   );
 }

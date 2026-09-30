@@ -931,3 +931,56 @@ html, body, #root { height: 100%; margin: 0; }
   text-align: center;
   margin: 4px 0 0;
 }
+
+.demo-banner {
+  margin-left: auto;
+  margin-bottom: 6px;
+  align-self: center;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  background: #FAEEDA;
+  color: #854F0B;
+  border: 1px solid #EFCB8F;
+}
+
+.demo-banner + .logout-btn {
+  margin-left: 8px;
+}
+
+.demo-notice {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  max-width: calc(100vw - 32px);
+  padding: 22px 24px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  z-index: 1999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.demo-notice h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.demo-notice p {
+  font-size: 13px;
+  color: #444;
+  margin: 0;
+  line-height: 1.45;
+}
+
+.demo-notice .save-btn {
+  align-self: flex-end;
+  margin-top: 6px;
+}
